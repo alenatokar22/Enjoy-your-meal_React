@@ -18,7 +18,7 @@ function Popular() {
       setPopular(JSON.parse(check));
     } else {
       const url = await fetch(
-        `${Base_url}random?apiKey=${import.meta.env.REACT_API_KEY}&number=10`
+        `${Base_url}random?apiKey=d7288ed38b624e31be834adf16dad6a4&number=10`
       );
       const data = await url.json();
 
